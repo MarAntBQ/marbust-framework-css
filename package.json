@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"sass": "sass --watch --no-source-map marbust-framework.scss marbust-framework.css --style compressed"
+	}
+}

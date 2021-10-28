@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $flexboxwidth: 90%;
 
 @mixin flex-setup {
@@ -94,7 +96,7 @@ $flexboxwidth: 90%;
 
 // Here you'll make your template, it's easy, if you want to work with more than 12 columns so change;
 $boxtemplate: 12;
-$boxcalc: $flexboxwidth / $boxtemplate;
+$boxcalc: math.div($flexboxwidth, $boxtemplate);
 
 /* Flex-Box Setup for 12 colums */
 @for $i from 1 through $boxtemplate {
