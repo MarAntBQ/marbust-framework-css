@@ -1,6 +1,8 @@
 $this: #{home};
 .path-#{$this} {
   .#{$this} {
-
+    &-welcome {
+      padding: 50px 0;
+    }
   }
 }
