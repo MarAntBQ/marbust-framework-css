@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"install-sass": "npm install -g sass",
-		"gitclone-nodejs": "git clone git@github.com:MarAntBQ/MarbustFrameworkCSS.git ~/views/sass",
+		"gitclone-nodejs": "git clone https://github.com/MarAntBQ/MarbustFrameworkCSS.git ~/views/sass",
 		"nodejs-sass-default": "sass --watch --no-source-map default.scss ../../public/css/styles.css --style compressed",
 		"nodejs-sass-accounts": "sass --watch --no-source-map marbust-accounts.scss ../../public/css/styles.css --style compressed",
 		"html-sass-default": "sass --watch --no-source-map default.scss ../css/styles.css --style compressed",
