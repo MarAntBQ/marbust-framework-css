@@ -22,3 +22,8 @@
     @content;
   }
 }
+@mixin break-max-i {
+  @media (max-width: $break-intermedium) {
+    @content;
+  }
+}
