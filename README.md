@@ -1,10 +1,13 @@
-# Marbust Technology Company Framework CSS 4.2.0
+# Marbust Technology Company Framework CSS 6.0.0
 #Freedom in your design and power for your layout
-<p>Update October 28th, 2021<p>
-<p>2021 - We work together for a better world<p>
-<p>------------News-------------------</p>
-<p>This project will be descontinuated, we'll begin working in a new brand version<p>
-<p>New Brand Version => https://github.com/MarcoAntonioMGDA/FreedomFramework<p>
-<p>To import to your web site, in your css file add the next line:</p>
-<p>@import url("https://framework.marbust.com/marbust-framework.css");</p>
-<p>Licensed by: Marbust Technology Company® - All Rights Reserved | You're able to use, modify, but always giving credit to the author: WFD. Marco Antonio MGDA (Marbust CEO)</p>
+---
+Update March 30th, 2024
+---
+**News:**
+- New Version does not have pre-rules, bucles since they are deprectated
+- The framework is the structure for any sass project that can be use as an starting point
+- Marbust Technology Company will use this same framework for all the websites, but we have **projects** folder where there styles can be used for n projects you can have
+- Starting files will be added in the package.json
+--- 
+
+Licensed by: Marbust Technology Company® - All Rights Reserved | You're able to use, modify, but always giving credit to the author: Marco Antonio Bustillos Quiroz (Marbust CEO) https://marantbq.dev

@@ -1,0 +1,24 @@
+/* BreakPoint for specific Size*/
+@mixin break($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}
+/* BreakPoint for Small Screens */
+@mixin break-s {
+  @media (min-width: $break-small) {
+    @content;
+  }
+}
+/* BreakPoint for Medium Screens */
+@mixin break-m {
+  @media (min-width: $break-medium) {
+    @content;
+  }
+}
+/* BreakPoint for intermediate Screens */
+@mixin break-i {
+  @media (min-width: $break-intermedium) {
+    @content;
+  }
+}
