@@ -1,0 +1,24 @@
+$this: #{account-setup-register};
+$this2: #{account-setup-login};
+.path-#{$this},
+.path-#{$this2} {
+  .#{$this},
+  .#{$this2} {
+    &-form {
+      min-height: calc(100vh - $header-height);
+      padding: 50px 0;
+      display: flex;
+      align-items: center;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(../img/pages/account/register/banner.jpg);
+      h1 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      
+    }
+  }
+}

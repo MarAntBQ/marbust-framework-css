@@ -1,0 +1,33 @@
+form {
+  max-width: 600px;
+  margin: 0 auto;
+ input {
+  width: 100%;
+  border: 1px solid $color-darkblue;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: inherit;
+  color: $color-darkblue;
+  font-weight: bold;
+ }
+ button {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  padding: 15px 10px;
+  background: $color-darkblue;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 10px;
+  font-weight: bold;
+  &:hover {
+    background: $color-skyblue;
+  }
+ }
+}

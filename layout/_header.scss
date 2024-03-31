@@ -44,7 +44,8 @@ header {
             @include break-max-i {
               margin: unset;
             }
-            &:hover {
+            &:hover,
+            &.active {
               color: $color-skyblue;
             }
           }
