@@ -1,4 +1,4 @@
-# Marbust Technology Company Framework CSS 6.0.0
+# Marbust Technology Company Framework CSS 6.0.1
 #Freedom in your design and power for your layout
 ---
 Update March 30th, 2024
