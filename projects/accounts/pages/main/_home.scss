@@ -1,8 +1,7 @@
+$imgUrl: url(../img/pages/account/register/banner.jpg);
 $this: #{home};
 .path-#{$this} {
   .#{$this} {
-    &-welcome {
-      padding: 50px 0;
-    }
+    @import 'home/banner';
   }
 }
