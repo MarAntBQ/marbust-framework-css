@@ -14,6 +14,10 @@
     background: $color-skyblue;
     color: $color-white;
   }
+  &--center {
+    margin-left: auto;
+    margin-right: auto;
+  }
   &--secondary {
     background: $color-yellow;
     color: $color-black;
