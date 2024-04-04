@@ -30,6 +30,10 @@
     background: $color-white;
     color: $color-darkblue;
   }
+  &--alert {
+    background: red;
+    color: $color-white;
+  }
 }
 
 .wsp-msg {

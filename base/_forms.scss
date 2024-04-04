@@ -19,4 +19,17 @@ form {
    margin: 0 auto;
    font-family: inherit;
  }
+ .buttons {
+  &__flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    button {
+      margin: 0 5px;
+    }
+  }
+ }
+ &.button-form {
+  margin-top: 5px;
+ }
 }
