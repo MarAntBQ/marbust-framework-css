@@ -1,37 +1,40 @@
+$imgUrl: url(../img/pages/no-auth/banner.jpg);
 &.not-auth {
-  background: $color-darkblue;
   min-height: 100vh;
   display: flex;
   align-items: center;
   padding: 50px 0;
+  @include Banner($imgUrl, 100vh);
   .form-section {
     background: $color-white;
     width: 90%;
     max-width: 500px;
-    margin: 50px auto 0 auto;
-    padding: 30px;
+    margin: 0 auto;
+    //padding: 30px;
     border-radius: 15px;
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
-    //border: 1px solid $color-yellow;
-    &__logo {
-      background: $color-white;
-      transform: translateY(-110%);
-      border-radius: 15px;
-      position: absolute;
-      max-width: 250px;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-      padding: 10px;
-      img {
-        display: block;
-        margin: 0 auto;
-        max-width: 200px;
-      }
+    border: 1px solid $color-skyblue;
+    &__header,
+    &__copyright {
+      background: $color-darkblue;
+      color: $color-white;
+      padding: 5px;
+      text-align: center;
+      font-weight: bold;
+    }
+    &__header {
+      border-radius: 15px 15px 0 0;
+    }
+    &__copyright {
+      border-radius: 0 0 15px 15px ;
     }
     &__title {
+      margin: 15px 0 0;
       text-align: center;
-      margin-bottom: 10px;
+    }
+    &__main {
+      padding: 15px;
+      @import 'no-auth/forms';
     }
     &__links {
       text-align: center;

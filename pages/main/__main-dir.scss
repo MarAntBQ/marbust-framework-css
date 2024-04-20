@@ -4,7 +4,6 @@
 @import '404';
 
 .not-auth {
-  @import 'forms';
   .path-main {
     @import 'login';
     @import 'register';
