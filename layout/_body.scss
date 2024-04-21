@@ -1,5 +1,5 @@
 body {
-  @include body;
-  // Body
+  // When user is not auth
   @import 'no-auth';
+  @import 'dashboard';
 }

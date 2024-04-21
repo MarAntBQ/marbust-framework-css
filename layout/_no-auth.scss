@@ -10,7 +10,6 @@ $imgUrl: url(../img/pages/no-auth/banner.jpg);
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    //padding: 30px;
     border-radius: 15px;
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
     border: 1px solid $color-skyblue;
@@ -18,12 +17,14 @@ $imgUrl: url(../img/pages/no-auth/banner.jpg);
     &__copyright {
       background: $color-darkblue;
       color: $color-white;
-      padding: 5px;
+      padding: 10px 5px;
       text-align: center;
       font-weight: bold;
+      font-size: 14px;
     }
     &__header {
       border-radius: 15px 15px 0 0;
+      text-transform: uppercase;
     }
     &__copyright {
       border-radius: 0 0 15px 15px ;
