@@ -22,9 +22,12 @@ header {
       &:hover {
         background: rgba(0, 0, 0, 0.041);
       }
+      i {
+        transition: 0.3s;
+      }
     }
     &--active {
-      background: $color-graylight;
+      background: rgb(236, 236, 236);
       ul {
         display: block;
       }
@@ -41,7 +44,8 @@ header {
       a {
         display: block;
         padding: 10px 20px;
-        &:hover {
+        &:hover,
+        &.active {
           background: $color-darkblue;
           color: $color-white;
         }

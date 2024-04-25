@@ -12,13 +12,14 @@
   color: $color-blue;
   box-shadow: 0 7px 7px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
   display: flex;
-  justify-content: space-between;
+  //justify-content: space-between;
   align-items: center;
   padding: 10px;
 
   .logo-ctnr {
       display: block;
       width: 100px;
+      margin-right: 10px;
       img {
           display: block;
           width: 100%;
@@ -28,9 +29,21 @@
       font-size: 25px;
       padding: 5px;
       transition: 0.3s;
+      margin-right: 15px;
       &:hover {
           cursor: pointer;
           color: $color-skyblue;
       }
+  }
+  .fa-circle-user {
+    margin-left: auto;
+    font-size: 25px;
+    padding: 5px;
+    transition: 0.3s;
+    margin-right: 15px;
+    &:hover {
+      cursor: pointer;
+      color: $color-skyblue;
+    }
   }
 }
