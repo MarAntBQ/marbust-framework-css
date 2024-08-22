@@ -1,3 +1,12 @@
 main {
-
+  background: #E6E7E8;
+  width: 100%;
+  min-height: getBlockMargin(100vh,70px);
+  max-height: getBlockMargin(100vh,70px);
+  overflow-y: auto;
+  padding: 30px 10px;
+  @include break-m {
+    width: getBlockMargin(100%,250px);
+    transition: 0.3s;
+  }
 }
