@@ -1,7 +1,7 @@
 {
 	"scripts": {
 		"install-sass": "npm install -g sass",
-		"sass": "sass --watch --no-source-map styles.scss ../../public/css/styles.css --style compressed",
+		"sass": "sass --watch --no-source-map styles.scss public/css/styles.css --style compressed",
 		"submodule-nodejs": "git submodule add https://github.com/MarAntBQ/MarbustFrameworkCSS.git ./views/sass",
 		"submodule-html": "git submodule add https://github.com/MarAntBQ/MarbustFrameworkCSS.git ./sass"
 	}
