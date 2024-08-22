@@ -1,7 +1,7 @@
-# Marbust Technology Company Framework CSS 6.0.1
+# Marbust Technology Company Framework CSS 6.5.0
 #Freedom in your design and power for your layout
 ---
-Update March 30th, 2024
+Update August 21th, 2024
 ---
 **News:**
 - New Version does not have pre-rules, bucles since they are deprectated
