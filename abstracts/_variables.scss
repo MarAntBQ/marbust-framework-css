@@ -1,8 +1,16 @@
 // Colors
-@import 'variables/colors';
+$color-blue: #388DCE;
+$color-darkblue: #1f354a;
+$color-skyblue: #24B4ED;
+$color-black: #323232;
+$color-white: white;
+$color-graylight: #fafafa;
+$color-yellow: #fdd428;
+$color-header: rgba(255, 255, 255, 0.90);
 // MediaQueries
-@import 'variables/mediaqueries';
+$break-intermedium: 1024px;
+$break-medium: 768px;
+$break-small: 550px;
 // Fonts
-@import 'variables/fonts';
-// Sizing
-@import 'variables/sizing';
+$normal-font: sans-serif;
+$font-headings: sans-serif;

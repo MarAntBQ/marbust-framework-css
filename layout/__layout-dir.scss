@@ -2,13 +2,9 @@
 
 // Body
 @import 'body';
-.dashboard {
-  // Header
-  @import 'header';
-  // Nav
-  @import 'responsive-nav';
-  // Main
-  @import 'main';
-  // Footer
-  @import 'footer';
-}
+// Header
+@import 'header';
+// Main
+@import 'main';
+// Footer
+@import 'footer';
