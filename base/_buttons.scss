@@ -1,3 +1,4 @@
+button,
 .btn {
   border-radius: 5px;
   background: $color-darkblue;
@@ -10,6 +11,7 @@
   text-decoration: none;
   transition: 0.3s;
   width: 200px;
+  border: none;
   &:hover {
     background: $color-skyblue;
     color: $color-white;

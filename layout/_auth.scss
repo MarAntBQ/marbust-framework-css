@@ -1,0 +1,12 @@
+.auth-layout {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/auth/banner.jpg);
+    min-height: 100vh;
+    padding: 50px 20px;
+    @include break-m {
+        padding: 50px 10%;
+    }
+}
