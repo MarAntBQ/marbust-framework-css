@@ -6,7 +6,30 @@
     background-image: url(../img/auth/banner.jpg);
     min-height: 100vh;
     padding: 50px 20px;
+    display: flex;
+    align-items: center;
     @include break-m {
         padding: 50px 10%;
+    }
+    .copyright {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: $color-white;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 13px;
+        z-index: 1;
+        p {
+            line-height: 2em; 
+            a {
+                font-weight: bold;
+                &:hover {
+                    color: $color-yellow;
+                }
+            }
+        }
     }
 }

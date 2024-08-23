@@ -1,14 +1,16 @@
 // Import all auth pages
 .auth-layout {
     &__block {
-        background: $color-header;
+        background: $color-white;
         border-radius: 10px;
         padding: 20px;
-        min-height: getBlockMargin(100vh, 100px);
+        min-height: getBlockMargin(50vh, 100px);
         width: 75%;
         margin: 0 auto;
         display: flex;
         align-items: center;
+        z-index: 2;
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
         @include break-m {
             margin: 0 0 0 auto;
             max-width: 350px;
