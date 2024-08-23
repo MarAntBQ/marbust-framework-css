@@ -6,6 +6,9 @@ form {
         border-radius: 10px;
         border: 2px solid $color-skyblue;
         transition: 0.3s;
+        &:disabled {
+            background: $color-disabled;
+        }
         &:focus {
             outline: none;
             border: 2px solid $color-darkblue;
@@ -17,7 +20,12 @@ form {
 }
 .form {
     &--auth {
-        //border: 5px solid $color-skyblue;
+        button {
+            position: relative;
+            .fa-spinner {
+                margin-left: 5px;
+            }
+        }
     }
     &__link {
         margin: 10px 0;
