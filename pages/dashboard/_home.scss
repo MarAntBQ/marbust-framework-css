@@ -1,0 +1,31 @@
+.dashboard__home {
+    h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: $color-darkblue;
+        color: $color-white;
+    }
+    .update-list {
+        //padding-left: 25px;
+        list-style-type: none;
+    }
+    .update-item {
+        border: 1px solid $color-black;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: $color-blue;
+    }
+    .update-title {
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    .update-description {
+        margin-bottom: 0.5rem;
+    }
+    .update-date {
+        font-size: 0.9rem;
+        color: $color-darkblue;
+    }
+}
