@@ -4,6 +4,12 @@
     @content;
   }
 }
+/* BreakPoint with Max for specific Size*/
+@mixin breakMax($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
 /* BreakPoint for Small Screens */
 @mixin break-s {
   @media (min-width: $break-small) {
@@ -13,6 +19,12 @@
 /* BreakPoint for Medium Screens */
 @mixin break-m {
   @media (min-width: $break-medium) {
+    @content;
+  }
+}
+/* BreakPoint for Medium Screens */
+@mixin break-max-m {
+  @media (max-width: $break-medium) {
     @content;
   }
 }
