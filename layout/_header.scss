@@ -67,6 +67,7 @@ header {
   nav {
     height: getBlockMargin(100vh, 245px);
     overflow-y: auto;
+    @include customScrollBar($color-blue, $color-graylight);
     ul {
       list-style: none;
       padding: 0;

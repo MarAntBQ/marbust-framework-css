@@ -4,4 +4,5 @@ main {
   //max-height: 100vh;
   width: 100%;
   overflow-y: auto;
+  @include customScrollBar($color-blue, $color-graylight);
 }
