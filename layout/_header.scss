@@ -11,8 +11,20 @@ header {
   position: fixed;
   z-index: 3;
 
-  @include break-max-m{
+  @include break-max-m {
     display: none;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+    &.header--open {
+      display: block;
+      top: 0;
+      left: 0;
+      transition: all 0.3s ease-in-out;
+
+      @starting-style {
+        left: -100%;
+      }
+    }
   }
 
   .header {
