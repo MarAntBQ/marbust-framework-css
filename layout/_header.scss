@@ -1,10 +1,19 @@
 header {
   max-width: 250px;
   width: 100%;
+  top: 0;
+  left: 0;
   background: $color-graylight;
   height: 100vh;
+  transition: 0.3s;
   //overflow-y: auto;
-  border-right: 2px solid $color-darkblue;
+  box-shadow: 0 7px 7px 0 rgb(0 0 0 / 12%), inset 0 0 0 0 #dadce0;
+  position: fixed;
+  z-index: 3;
+
+  @include break-max-m{
+    display: none;
+  }
 
   .header {
     &-profile {
