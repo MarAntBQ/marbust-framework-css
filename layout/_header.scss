@@ -14,10 +14,10 @@ header {
   @include break-max-m {
     display: none;
     left: -100%;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, display 0.3s allow-discrete;
     &.header--open {
       display: block;
-      top: 0;
+      //top: 0;
       left: 0;
       transition: all 0.3s ease-in-out;
 
@@ -61,7 +61,7 @@ header {
         padding: 10px 0;
         display: none;
         scale: 0;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out, display 0.3s allow-discrete;
         &--open {
           display: block;
           scale: 1;
@@ -121,15 +121,16 @@ header {
           list-style: none;
           padding: 0;
           margin: 0;
+          display: none;
           max-height: 0;
-          overflow: hidden;
-          transition: max-height 0.3s ease-in-out;
-          @starting-style {
-            max-height: 0;
-          }
+          transition: all 0.1s ease-in-out, display 0.1s allow-discrete;
           &.open {
-            max-height: 500px; // Ajusta este valor según el contenido
-            transition: max-height 0.3s ease-in-out;
+            display: block;
+            max-height: 1000px;
+            transition: all 0.1s ease-in-out;
+            @starting-style {
+              max-height: 0;
+            }
           }
           li {
             a {
